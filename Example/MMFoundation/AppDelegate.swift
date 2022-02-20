@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MMFoundation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+//        let storage = MMStorage.db
+//        storage.dbPath = FileManager.directory(.cachesDirectory).last!+"/db/db.db"
+//        debugPrint(storage.dbPath)
+//        let str = "data"
+//        storage.save(str, for: "string")
+//        var strValue: String? = storage.get(for: "string")
+//        storage.remove(for: "string")
+//        strValue = storage.get(for: "string")
+//        let data = String("123").data(using: .utf8)!
+//        storage.save(data, for: "data")
+//        let dataValue: Data? = storage.get(for: "data")
+//        let image = UIImage(contentsOfFile: Bundle.main.path(forResource: "dice_4.pic", ofType: nil)!)!
+//        storage.save(image, for: "image")
+//        let imageValue: UIImage? = storage.get(for: "image")
+//        storage.save(false, for: "bool")
+//        let boolValue: Bool? = storage.get(for: "bool")
+////        storage.clear()
+//        storage.dropCurrentTable()
+        
+//        MMPermission(.locationInUse).request { debugPrint("\($0)") }
         return true
     }
 
