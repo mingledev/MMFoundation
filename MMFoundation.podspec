@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: 不断完善中，持续封装开发过程中遇到的功能
                        DESC
 
-  s.homepage         = 'https://github.com/Mingle/MMFoundation'
+  s.homepage         = 'https://github.com/mingledev/MMFoundation.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mingle' => 'ggydm@vip.qq.com' }
